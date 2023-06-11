@@ -11,7 +11,7 @@
     background-color: lightblue;
     padding: 0.2px;
     font-family: Book Antiqua;
-    
+   
   }
 
   /* Add styles for the navigation menu */
@@ -21,7 +21,7 @@
     padding: 0.2px;
     display: flex;
     justify-content: center;
-  
+ 
   }
 
   nav li {
@@ -49,3 +49,4 @@
     font-size: 15px;
   }
 </style>
+
