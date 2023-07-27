@@ -48,5 +48,9 @@
     font-family: Arial;
     font-size: 15px;
   }
+table,th,td {
+  border: 1px solidblack;
+  text-align: center;
+}
 </style>
 
