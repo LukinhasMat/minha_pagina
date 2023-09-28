@@ -56,14 +56,9 @@
       </p>
     </main>
      
-   <footer>
-        <script>
-            function muda_cor(){
-                document.getElementById("principal").style.backgroundColor="red";
-            }
-        </script>
-    <nav>
-        <ul>
+  <footer>
+        <nav>
+                <ul>
           <li> <button id="tema1button"> Tema 1 </button></li>
           <li>  <button id="tema2button">Tema 2</button> </li>
         </ul>
@@ -73,11 +68,20 @@
              // Adiciona evento de listener ao botao
              changeColorButton2.addEventListener('click', () => {
                  // Muda a cor de fundo
-                 document.body.style.backgroundColor = 'red';
-                 document.header.style.backgroundColor = 'red';
+                 document.body.style.backgroundColor = '#F0FFFF';
+                 document.header.style.backgroundColor = '#F0FFFF';
              });
          </script>
-      </nav>
+                     <script>
+             const changeColorButton1 = document.getElementById('tema1button');
+             // Adiciona evento de listener ao botao
+             changeColorButton1.addEventListener('click', () => {
+                 // Muda a cor de fundo
+                 document.body.style.backgroundColor = '#FFC0CB';
+                 document.header.style.backgroundColor = '#FFC0CB';
+             });
+         </script>
+        </nav>
       Copyright © 2023 Lukinhas
     </footer>
 </body>
