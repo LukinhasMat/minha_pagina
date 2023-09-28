@@ -40,17 +40,18 @@
     text-align: center;
   }
 
-  /* Add styles for the footer */
-  footer {
-    background-color: lightblue;
-    padding: 0.1px;
-    text-align: center;
-    font-family: Arial;
-    font-size: 15px;
-  }
 table,th,td {
   border: 1px solidblack;
   text-align: center;
 }
+
+  /* Add styles for the footer */
+   footer {
+    background-color: black;
+    padding: 0.1px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 10px;
+  }
 </style>
 
