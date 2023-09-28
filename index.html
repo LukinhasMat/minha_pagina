@@ -57,6 +57,26 @@
     </main>
      
     <footer>
+                    <script>
+                const changeColorButton = document.getElementById('tema1button');
+                changeColorButton.addEventListener('click',() => {
+                    document.body.style.backgroundColor='black';
+                    document.body.header.backgroundColor='black';
+                });
+        <nav>
+         <ul>
+          <li><button id="tema1button"> Tema 1 </button></li>
+          <li><button id="tema2button"> Tema 2 </button></li>
+         </ul>
+            <script>
+                const changeColorButton = document.getElementById('tema2button');
+                changeColorButton.addEventListener('click',() => {
+                    document.body.style.backgroundColor='red';
+                    document.body.header.backgroundColor='red';
+                });
+            </script>
+        </nav>
+
       Copyright © 2023 Lukinhas
     </footer>
 </body>
